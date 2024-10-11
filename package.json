@@ -1,0 +1,14 @@
+{
+  "name": "screenshot-api-esm",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.669.0",
+    "express": "^4.21.1",
+    "puppeteer": "^23.5.3"
+  }
+}
